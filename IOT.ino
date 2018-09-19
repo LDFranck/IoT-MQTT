@@ -43,8 +43,8 @@
 
 
 //Configurações da Internet
-const char* ssid = "Net-Virtua1501";
-const char* pass = "3810119670";
+const char* ssid = "..."; //Nome da rede
+const char* pass = "..."; //Senha da rede
 
 
 //Configurações do Broker
@@ -52,7 +52,7 @@ const char* broker_address = "mqtt.tago.io";
 const int broker_port = 8883;
 const char* clientID = "clientID";
 const char* username = "username";
-const char* password = "37ee6b6c-1a8b-462e-91c4-99266fc7bee4";
+const char* password = "..."; //Token
 const char* publish_topic = "tago/data/post";
 
 
@@ -66,13 +66,11 @@ String msg;
 
 
 void setup() {
-  // put your setup code here, to run once:
   setUp_Inicial();
 }
 
 
 void loop() {
-  // put your main code here, to run repeatedly
 
 if(Serial.available()){
   msg=Serial.readString();
