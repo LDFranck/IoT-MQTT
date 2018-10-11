@@ -1,4 +1,4 @@
 # IoT_MQTT
-Observação:
+Observações:
 - Ler os comentários contidos no código
 - Salvar todos os arquivos em uma mesma pasta
